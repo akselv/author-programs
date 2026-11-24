@@ -1,0 +1,994 @@
+.panelikon {
+	float: left;
+	width: 69px;
+	background-color: #f1f1f1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	padding-top: 5px;
+	height: 50px;
+}
+.inputcalcu {
+	text-decoration: none;
+	background-image: url(../img/calculator.png);
+	height: 35px;
+	width: 35px;
+	border: 2px solid #f1f1f1;
+	background-repeat: no-repeat;
+	background-color: #f1f1f1;
+}
+.inputclos {
+	background-image: url(../img/imageclos.png);
+	background-repeat: no-repeat;
+	height: 25px;
+	border: 2px solid #f1f1f1;
+	background-color: #f1f1f1;
+	width: 25px;
+	float: right;
+}
+.inputbloknot {
+	background-image: url(../img/bloknot.png);
+	height: 35px;
+	background-repeat: no-repeat;
+	width: 35px;
+	border: 2px solid #f1f1f1;
+	background-color: #f1f1f1;
+}
+.prsentbox1 {
+	float: left;
+	width: 11%;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #333333;
+	height: 240px;
+}
+.calcutab {
+	float: left;
+	width: 80%;
+}
+.imputclos1 {
+	width: 50px;
+}
+.calendartextbox {
+	height: auto;
+	width: 75px;
+	overflow: auto;
+}
+		.bloknot {
+	height: 155px;
+	border: 1px solid #999999;
+	padding: 3px;
+	width: 100%;
+}
+.gikon {
+	padding-left: 1px;
+	padding-right: 1px;
+	width: 366px;
+	z-index: auto;
+}
+		.itogbox {
+	border: 1px solid #999999;
+	width: 40%;
+	height: auto;
+	float: left;	
+}
+.itogboxkvartal {
+	width: 100%;
+	height: auto;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	background-color: #FFFFFF;
+	padding-bottom: 3px;
+	font-weight: bold;
+	color: #000000;
+}
+	.itogboxkv {
+	border: 1px solid #999999;
+	width: 340px;
+	height: auto;
+}
+			.itogsum {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+}
+			.table1 {
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	height: 850px;
+}
+            .txt {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	border: 1px solid ##CCCCCC;
+            }
+			 .txt1 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt11 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt2 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt22 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt3 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt33 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt4 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt44 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt5 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt55 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt6 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt66 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt7 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt77 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt8 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt88 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt9 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt99 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt01 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt011 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt02 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt022 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			 .txt03 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.txt033 {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	text-align: left;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 75px;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 90%;
+	border: 1px solid #000000;
+	height: 20px;
+            }
+			.kv1 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv11 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv2 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv22 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv3 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv33 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv4 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv44 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv5 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv55 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv6 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv66 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv7 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv77 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+	border: 1px solid #CCCCCC;
+            }
+			.kv8 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv88 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv9 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv99 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv01 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv011 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv02 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv022 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv03 {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kv033 {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+            }
+			.kvplusminus {
+	background-color: #FFFFCC;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}
+.akvplusminus {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: normal;
+	font-style: normal;
+	width: 95%;
+	border: 1px solid #CCCCCC;
+	height: 20px;
+}			
+        .atextbox {
+	background-color: #FFFFFF;
+	height: 150px;
+	overflow: scroll;
+	width: 97%;
+	border: 5px solid #FFFFFF;
+}
+ .fixed {
+	height: auto;
+	background-color: #f1f1f1;
+	width: 360px;
+	padding-left: 3px;
+	position: fixed;
+
+    }
+.monfclear {
+	padding-top: 5px;
+	padding-bottom: 7px;
+	float: left;
+	width: 33%;
+	font-size: 18px;
+}
+.botsh {
+	clear: both;
+}
+.prsenttab {
+	background-color:  #EEE;
+	border-top-color: #999999;
+	padding-top: 10px;
+}
+
+.calcbuton {
+	font-size: 24px;
+	height: 35px;
+	width: 40px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 8px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+}
+.prboton {
+	font-size: 18px;
+	height: 25px;
+	width: 40px;
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	float: left;
+}
+.calku {
+	width: 50px;
+	margin-top: 5px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+.monfdiv {
+	float: left;
+	width: 30%;
+	margin-top: 5px;
+	margin-bottom: 7px
+}
+.monfdiv1 {
+	float: left;
+	width: 10%;
+}
+.monfclear1 {
+	float: left;
+	width: 32%;
+	padding-top: 5px;
+	padding-bottom: 7px
+}
+.monfall {
+	padding-bottom: 7px;
+	font-size: 24px;
+}
+
+.textboxicon {
+	float: left;
+	width: 80px;
+	height: auto;
+}
+.textboxwith {
+	width: 333px;
+	border: 1px solid #999999;
+	padding: 5px;
+	margin-left: 5px;
+	margin-top: 2px;
+}
+.textbixspanel {
+	width: 100%;
+	background-color: #f1f1f1;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999999;
+	border-top-color: #999999;
+	border-right-color: #999999;
+	border-left-color: #999999;
+	border-top-width: 3px;
+	border-top-style: solid;
+}
+.content {
+	background-color: #FF0000;
+	height: 25px;
+	width: auto;
+	font-size: 18px;
+	font-weight: bold;
+	display:none;
+}
+.heading {
+	width: auto;
+	font-size: 18px;
+	height: 15px;
+	text-decoration: none;
+}
+.co1 {
+	padding-left: 3px;
+}
+.left50 {
+	float: left;
+	width: 35%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.right50 {
+	float: left;
+	width: 100px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.tab14 {
+	width: 14%;
+	float: left;
+	margin-bottom: 3px;
+	height: 110px;
+	border: 1px solid #000000;
+	margin-top: 3px;
+}
+.tab14a {
+	width: 14%;
+	float: left;
+	margin-bottom: 3px;
+	height: 110px;
+	border: 1px solid #666666;
+}
+.tab15 {
+	width: 14%;
+	float: left;
+	margin-bottom: 3px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+.tab15a {
+	width: 14%;
+	float: left;
+	margin-bottom: 3px;
+	border-top-width: 2px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-color: #000000;
+}
+
+.div1001 {
+	width: 100%;
+}
+.defolt100 {
+	width: 99%;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #000000;
+	border-right-color: #000000;
+	border-bottom-color: #000000;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #000000;
+	padding-left: 1%;
+}
+.tab140 {
+	margin-top: 10px;
+	width: 1200px;
+}
+.itogboxleft {
+	float: left;
+	width: 48%;
+}
+.itogboxrught {
+	float: right;
+	width: 50%;
+	background-color: #f0f3f7;
+	height: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+.itogbox50 {
+	float: left;
+	width: 50%;
+	padding-top: 3px;
+}
+.itogbox50right {
+	float: right;
+	width: 50%;
+}
+.itogboxrught1 {
+	background-color: #FFFFCC;
+	width: 50%;
+	float: right;
+	height: 30px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+.itogboxtopleft {
+	float: left;
+	width: 50%;
+}
+.itogboxtop100 {
+	width: 100%;
+	background-color: #f0f3f7;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.itogbutton {
+	width: 100%;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #000000;
+}
+.itogboxkv {
+	float: left;
+	width: 24%;
+}
+.itogboxkv1 {
+	float: left;
+	width: 25%;
+	background-color: #FFFFCC;
+}
+.itogboxkv100 {
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: #FFFFFF;
+}
+.contentdiv {
+	height: 700px;
+	overflow: scroll;
+	width: auto;
+	margin-left: 5px;
+	margin-top: 30px;
+}
+.gikon1 {
+	float: right;
+	width: 78%;
+	padding-top: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.gikon2 {
+	padding-top: 5px;
+	float: left;
+	width: 10%;
+	padding-left: 20px;
+}
+.gikon3 {
+	font-size: 16px;
+	padding-left: 50px;
+}
+.tabmame {
+	padding-left: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.gikon4 {
+	padding-left: 20px;
+	font-size: 24px;
+}
+.clearbox {
+	padding-bottom: 5px;
+}
+.inputclear {
+	background-image: url(../img/delete.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+	border: 2px solid #f1f1f1;
+	background-color: #f1f1f1;
+}
+.inpotmonf {
+	text-decoration: none;
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 35px;
+	border: 2px solid #f1f1f1;
+	background-color: #f1f1f1;
+}
+.calcudefoit {
+	margin-top: 3px;
+	border: 1px solid #333333;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	height: 240px;
+	width: 350px;
+}
+.prbiton1 {
+	height: 25px;
+	width: 40px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 2px;
+	margin-left: 5px;
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+.monftop1 {
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	width: 90%;
+}.monftop2 {
+	float: right;
+	width: 10%;
+	height: 25px;
+}
+.monftop100 {
+	width: 100%;
+}
+.table2 {
+	background-color: #FFFFFF;
+	margin-top: 15px;
+	height: 1000px;
+}
+.table3 {
+	background-color: #FFFFFF;
+	height: 750px;
+	margin-top: 15px;
+}
+.tabrlerov1 {
+	background-color: #f0f3f7;
+}
